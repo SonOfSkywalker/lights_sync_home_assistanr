@@ -30,7 +30,7 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory of the project and add the following environment variables:
 
 ```bash
-HASS_URL=http://<YOUR_HOME_ASSISTANT_URL>:<PORT>
+HASS_URL=http://<YOUR_HOME_ASSISTANT_URL>:<PORT>/api/services/light/turn_on
 HASS_TOKEN=<HOME_ASSISTANT_ACCESS_TOKEN>
 CONFIG_PATH=<PATH_TO_YOUR_CONFIG_FILE>
 ```
