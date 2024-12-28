@@ -2,6 +2,10 @@
 
 Creates an Ambilight effect by syncing Home Assistant lights with your monitor’s colors and brightness.
 
+## Demo
+
+[![Sync Home Assistant Lights to your monitors](https://img.youtube.com/vi/Wxe7c3z4jUU/0.jpg)](https://www.youtube.com/watch?v=Wxe7c3z4jUU)
+
 ## Requirements
 
 - Python 3.x
