@@ -90,7 +90,11 @@ def change_color(light_id, color, brightness, transition=0.2):
     }
 
     try:
-        response = requests.post(HOME_ASSISTANT_URL, headers=headers, json=payload)
+        response = requests.post(
+            f"{HOME_ASSISTANT_URL}/api/services/light/turn_on",
+            headers=headers,
+            json=payload,
+        )
         response.raise_for_status()  # Raise an exception for HTTP errors
         return response.json()
     except requests.exceptions.RequestException as e:
