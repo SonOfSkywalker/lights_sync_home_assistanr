@@ -8,7 +8,7 @@ Creates an Ambilight effect by syncing Home Assistant lights with your monitorâ€
 
 ## Requirements
 
-- Python 3.x
+- Python 3.9 or higher
 - `mss`: for capturing screen content
 - `Pillow`: for processing images
 - `requests`: for interacting with the Home Assistant API
