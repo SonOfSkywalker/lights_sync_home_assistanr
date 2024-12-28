@@ -1,0 +1,7 @@
+mss==10.0.0
+numpy==1.26.4
+pillow==11.0.0
+requests
+json
+python-dotenv
+pyyaml
