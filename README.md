@@ -87,6 +87,11 @@ python main.py
 2. The average color and brightness of the screen are calculated.
 3. The script sends a request to the Home Assistant API to update the color and brightness of the lights.
 
+
+## Known limitations
+
+- This code will not work on [Wayland](https://fr.wikipedia.org/wiki/Wayland) as [python-mss does not support it for the time being](https://github.com/BoboTiG/python-mss/issues/155)
+
 ## Troubleshooting
 
 - If you encounter any issues, please open an issue on GitHub.
